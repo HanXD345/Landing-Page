@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto', "Times New Roman", Arial;
+}
+
+header,
+.hero,
+footer {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
