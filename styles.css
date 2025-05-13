@@ -7,9 +7,12 @@ header,
 .hero,
 .random-info,
 .quote,
-.call-to-action,
 footer {
     padding: 10px 150px;
+}
+
+.call-to-action {
+    margin: 10px 150px;
 }
 
 header,
@@ -20,6 +23,10 @@ footer {
 
 .quote {
     background-color: #E5E7EB;
+}
+
+.call-to-action {
+    background-color: #3882F6;
 }
 
 header {
@@ -66,13 +73,15 @@ header {
     color: #E5E7EB
 }
 
-.website-info button {
+.website-info button,
+.call-to-action button {
     background-color: #3882F6;
     border-style: none;
     color: white;
     padding: 10px 30px;
     border-radius: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .hero .image {
@@ -139,3 +148,27 @@ header {
     margin-top: 2px;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.call-to-action h3 {
+    margin-bottom: 2px;
+}
+
+.call-to-action p {
+    margin-top: 2px;
+}
+
+.call-to-action button {
+    border: 2px solid white;
+    margin-left: 20px;
+}
