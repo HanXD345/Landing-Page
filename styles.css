@@ -172,3 +172,10 @@ header {
     border: 2px solid white;
     margin-left: 20px;
 }
+
+footer {
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
